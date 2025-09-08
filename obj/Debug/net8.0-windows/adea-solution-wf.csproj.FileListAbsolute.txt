@@ -16,3 +16,9 @@ C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\D
 C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\Debug\net8.0-windows\ref\adea-solution-wf.dll
 C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\Debug\net8.0-windows\adea_solution_wf.FormCaja.resources
 C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\Debug\net8.0-windows\adea_solution_wf.FormExpediente.resources
+C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\Debug\net8.0-windows\adea-solution-wf.csproj.AssemblyReference.cache
+C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\Debug\net8.0-windows\adea-solution-wf.sourcelink.json
+C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\Debug\net8.0-windows\adea-sol.32721381.Up2Date
+C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\Debug\net8.0-windows\adea_solution_wf.Services.FormAbout.resources
+C:\Users\DarkG\Documents\Visual Studio Code\adea-solution\adea-solution-wf\obj\Debug\net8.0-windows\adea_solution_wf.Properties.Resources.resources

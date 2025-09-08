@@ -39,11 +39,13 @@
             label2 = new Label();
             comboBoxExpediente = new ComboBox();
             labelNameEmployee = new Label();
+            buttonNew = new Button();
             groupBoxTitle.SuspendLayout();
             SuspendLayout();
             // 
             // groupBoxTitle
             // 
+            groupBoxTitle.Controls.Add(buttonNew);
             groupBoxTitle.Controls.Add(textBoxNameEmployee);
             groupBoxTitle.Controls.Add(comboBoxCaja);
             groupBoxTitle.Controls.Add(buttonCancel);
@@ -89,7 +91,7 @@
             // 
             // buttonDelete
             // 
-            buttonDelete.Location = new Point(192, 358);
+            buttonDelete.Location = new Point(111, 387);
             buttonDelete.Name = "buttonDelete";
             buttonDelete.Size = new Size(75, 23);
             buttonDelete.TabIndex = 8;
@@ -99,7 +101,7 @@
             // 
             // buttonEdit
             // 
-            buttonEdit.Location = new Point(111, 358);
+            buttonEdit.Location = new Point(192, 358);
             buttonEdit.Name = "buttonEdit";
             buttonEdit.Size = new Size(75, 23);
             buttonEdit.TabIndex = 7;
@@ -109,7 +111,7 @@
             // 
             // buttonSave
             // 
-            buttonSave.Location = new Point(30, 358);
+            buttonSave.Location = new Point(111, 358);
             buttonSave.Name = "buttonSave";
             buttonSave.Size = new Size(75, 23);
             buttonSave.TabIndex = 6;
@@ -153,6 +155,16 @@
             labelNameEmployee.TabIndex = 0;
             labelNameEmployee.Text = "Nombre del empleado";
             // 
+            // buttonNew
+            // 
+            buttonNew.Location = new Point(30, 358);
+            buttonNew.Name = "buttonNew";
+            buttonNew.Size = new Size(75, 23);
+            buttonNew.TabIndex = 12;
+            buttonNew.Text = "Nuevo";
+            buttonNew.UseVisualStyleBackColor = true;
+            buttonNew.Click += buttonNew_Click;
+            // 
             // FormExpediente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -180,5 +192,6 @@
         private ComboBox comboBoxExpediente;
         private Label labelNameEmployee;
         private TextBox textBoxNameEmployee;
+        private Button buttonNew;
     }
 }

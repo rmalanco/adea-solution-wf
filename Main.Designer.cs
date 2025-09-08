@@ -28,22 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            dataGridViewCajas = new DataGridView();
             radioButton1 = new RadioButton();
             groupBoxType = new GroupBox();
             radioButton2 = new RadioButton();
             panel1 = new Panel();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            button1 = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewCajas).BeginInit();
             groupBoxType.SuspendLayout();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridViewCajas
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 12);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(606, 490);
-            dataGridView1.TabIndex = 0;
+            dataGridViewCajas.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dataGridViewCajas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCajas.Location = new Point(12, 12);
+            dataGridViewCajas.Name = "dataGridViewCajas";
+            dataGridViewCajas.Size = new Size(606, 490);
+            dataGridViewCajas.TabIndex = 0;
             // 
             // radioButton1
             // 
@@ -58,6 +61,8 @@
             // 
             // groupBoxType
             // 
+            groupBoxType.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            groupBoxType.Controls.Add(button1);
             groupBoxType.Controls.Add(radioButton2);
             groupBoxType.Controls.Add(radioButton1);
             groupBoxType.Location = new Point(624, 12);
@@ -79,10 +84,21 @@
             // 
             // panel1
             // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             panel1.Location = new Point(624, 75);
             panel1.Name = "panel1";
             panel1.Size = new Size(284, 427);
             panel1.TabIndex = 3;
+            // 
+            // button1
+            // 
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.Location = new Point(241, 16);
+            button1.Name = "button1";
+            button1.Size = new Size(35, 31);
+            button1.TabIndex = 3;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Main
             // 
@@ -91,22 +107,24 @@
             ClientSize = new Size(912, 514);
             Controls.Add(panel1);
             Controls.Add(groupBoxType);
-            Controls.Add(dataGridView1);
+            Controls.Add(dataGridViewCajas);
+            MinimumSize = new Size(928, 553);
             Name = "Main";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdeA Solution";
             Load += Main_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewCajas).EndInit();
             groupBoxType.ResumeLayout(false);
             groupBoxType.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private DataGridView dataGridView1;
         private RadioButton radioButton1;
         private GroupBox groupBoxType;
         private RadioButton radioButton2;
         private Panel panel1;
+        private DataGridView dataGridViewCajas;
+        private Button button1;
     }
 }

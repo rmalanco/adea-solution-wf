@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("adea-solution-wf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db4680a1691764c0a7aa919f3cc1e27b871cdec2")]
 [assembly: System.Reflection.AssemblyProductAttribute("adea-solution-wf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("adea-solution-wf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

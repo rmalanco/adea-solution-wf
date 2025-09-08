@@ -39,11 +39,13 @@
             comboBoxLocations = new ComboBox();
             comboBoxStatus = new ComboBox();
             label1 = new Label();
+            buttonNew = new Button();
             groupBoxTitle.SuspendLayout();
             SuspendLayout();
             // 
             // groupBoxTitle
             // 
+            groupBoxTitle.Controls.Add(buttonNew);
             groupBoxTitle.Controls.Add(buttonCancel);
             groupBoxTitle.Controls.Add(buttonDelete);
             groupBoxTitle.Controls.Add(buttonEdit);
@@ -73,7 +75,7 @@
             // 
             // buttonDelete
             // 
-            buttonDelete.Location = new Point(192, 356);
+            buttonDelete.Location = new Point(111, 385);
             buttonDelete.Name = "buttonDelete";
             buttonDelete.Size = new Size(75, 23);
             buttonDelete.TabIndex = 8;
@@ -83,7 +85,7 @@
             // 
             // buttonEdit
             // 
-            buttonEdit.Location = new Point(111, 356);
+            buttonEdit.Location = new Point(192, 356);
             buttonEdit.Name = "buttonEdit";
             buttonEdit.Size = new Size(75, 23);
             buttonEdit.TabIndex = 7;
@@ -93,7 +95,7 @@
             // 
             // buttonSave
             // 
-            buttonSave.Location = new Point(30, 356);
+            buttonSave.Location = new Point(111, 356);
             buttonSave.Name = "buttonSave";
             buttonSave.Size = new Size(75, 23);
             buttonSave.TabIndex = 6;
@@ -154,6 +156,16 @@
             label1.TabIndex = 0;
             label1.Text = "Estado:";
             // 
+            // buttonNew
+            // 
+            buttonNew.Location = new Point(30, 356);
+            buttonNew.Name = "buttonNew";
+            buttonNew.Size = new Size(75, 23);
+            buttonNew.TabIndex = 10;
+            buttonNew.Text = "Nuevo";
+            buttonNew.UseVisualStyleBackColor = true;
+            buttonNew.Click += buttonNew_Click;
+            // 
             // FormCaja
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -181,5 +193,6 @@
         private Button buttonCancel;
         private Button buttonDelete;
         private Button buttonEdit;
+        private Button buttonNew;
     }
 }
